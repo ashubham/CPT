@@ -1,9 +1,9 @@
 # Compact Prediction Tree
 [![npm version](https://badge.fury.io/js/compact-prediction-tree.svg)](https://badge.fury.io/js/compact-prediction-tree)
 
-<img src="https://github.com/ashubham/CPT/raw/master/assets/prediction.jpg" align="right" alt="Sequence Prediction" />
+<img src="https://github.com/ashubham/CPT/raw/master/assets/prediction.jpg" align="right" style="width:300px;margin-left:20px" alt="Sequence Prediction" />
 
-This is the Python Implementation of CPT algorithm for Sequence Prediction. Its written in Pure Javascript
+This is an implementation of CPT algorithm for Fast Sequence Prediction. Its written in Pure Javascript
 and can be run both in NodeJS and the browser.
 
 The library is based on these research papers:
@@ -46,3 +46,6 @@ let predictions = model.predict(
 
 console.log(predictions) // [['you'], ['your']]
 ```
+
+It works on Strings/Number sequences. Optimizations are pending such as compression of frequenct sequences.
+Pull requests are welcome!
