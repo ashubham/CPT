@@ -1,7 +1,7 @@
 # Compact Prediction Tree
 [![npm version](https://badge.fury.io/js/compact-prediction-tree.svg)](https://badge.fury.io/js/compact-prediction-tree)
 
-<img src="https://github.com/ashubham/CPT/raw/master/assets/prediction.jpg" align="right" style="width:300px;margin-left:20px" alt="Sequence Prediction" />
+<img src="https://github.com/ashubham/CPT/raw/master/assets/prediction.jpg" align="right" width="300" style="width:300px;margin-left:20px" alt="Sequence Prediction" />
 
 This is an implementation of CPT algorithm for Fast Sequence Prediction. Its written in Pure Javascript
 and can be run both in NodeJS and the browser.
