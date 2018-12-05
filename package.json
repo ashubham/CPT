@@ -1,0 +1,24 @@
+{
+  "name": "compact-prediction-tree",
+  "version": "1.0.0",
+  "description": "Compact prediction Trees for Javascript",
+  "main": "dist/index.js",
+  "types": "dist/declarations/index.d.ts",
+  "scripts": {
+    "test": "npm run build",
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "compact prediction tree",
+    "sequence",
+    "prediciton",
+    "machine learning"
+  ],
+  "author": "ashubham@gmail.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
