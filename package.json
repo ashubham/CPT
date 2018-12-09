@@ -1,6 +1,6 @@
 {
   "name": "compact-prediction-tree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compact prediction Trees for Javascript",
   "main": "dist/index.js",
   "types": "dist/declarations/index.d.ts",
