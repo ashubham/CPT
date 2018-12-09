@@ -19,9 +19,11 @@ export default class CPT {
         Output : Boolean True
     */
     train(data) {
+        let existingDataLength = this.data.length;
         this.data = this.data.concat(data);
         let cursornode = this.root;
         data.forEach((row, idx) => {
+            idx = idx + existingDataLength;
             row.forEach(element => {
                 if(!cursornode.hasChild(element)) {
                     cursornode.addChild(element);
