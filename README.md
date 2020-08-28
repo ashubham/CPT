@@ -47,5 +47,5 @@ let predictions = model.predict(
 console.log(predictions) // [['you'], ['your']]
 ```
 
-It works on Strings/Number sequences. Optimizations are pending such as compression of frequenct sequences.
+It works on Strings/Number sequences. Perf optimizations are pending such as compression of frequent sequences.
 Pull requests are welcome!
