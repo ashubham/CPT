@@ -15,7 +15,7 @@ The library is based on these research papers:
 ## Install
 
 ```bash
-$ npm i compact-prediciton-tree
+$ npm i compact-prediction-tree
 ```
 
 ## Usage
